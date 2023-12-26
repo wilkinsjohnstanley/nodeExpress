@@ -8,6 +8,9 @@
 // }
 // console.log(`Hello world!!`);
 
-sayHi('John')
-sayHi(john)
-sayHi(george)
+// sayHi('John')
+// sayHi(john)
+// sayHi(george)
+
+const names = require('./4-names')
+console.log(names)
