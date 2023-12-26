@@ -8,10 +8,6 @@
 // }
 // console.log(`Hello world!!`);
 
-
-//Modules
-
-const sayHi = (name) =>{
-    console.log(`Hello there ${name}`);
-}
 sayHi('John')
+sayHi(john)
+sayHi(george)
