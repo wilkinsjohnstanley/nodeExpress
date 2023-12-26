@@ -8,9 +8,8 @@
 // }
 // console.log(`Hello world!!`);
 
-// sayHi('John')
-// sayHi(john)
-// sayHi(george)
-
 const names = require('./4-names')
-console.log(names)
+const sayHi = require('./5-modules')
+sayHi('John')
+sayHi(names.john)
+sayHi(names.george)
