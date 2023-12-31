@@ -13,3 +13,6 @@ const sayHi = require('./5-modules')
 sayHi('John')
 sayHi(names.john)
 sayHi(names.george)
+
+const data = require('./6-alternative-export-options')
+console.log(data)
