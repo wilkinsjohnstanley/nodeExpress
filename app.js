@@ -15,4 +15,6 @@ sayHi(names.john)
 sayHi(names.george)
 
 const data = require('./6-alternative-export-options')
-console.log(data)
+ console.log(data)
+
+ require('./7-addValues')
